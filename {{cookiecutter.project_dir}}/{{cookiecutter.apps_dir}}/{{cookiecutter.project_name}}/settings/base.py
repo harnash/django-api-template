@@ -90,7 +90,7 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = '{{cookiecutter.project_name}}.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = '{{cookiecutter.project_name|upper}}.wsgi.application'
+WSGI_APPLICATION = '{{cookiecutter.project_name}}.wsgi.application'
 
 TEMPLATES = [
     {
