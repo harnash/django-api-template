@@ -6,9 +6,10 @@ verify_ssl = true
 django-extensions = "*"
 Sphinx = "*"
 django-debug-toolbar = "*"
+Werkzeug = "*"
 
 [packages]
 Unipath = "*"
 djangorestframework = ">=3.5"
-django = ">=1.10"
 dj-database-url = "*"
+django = ">=1.10"
