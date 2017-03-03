@@ -35,5 +35,7 @@ DEBUG_TOOLBAR_CONFIG = {
     'SHOW_TOOLBAR_CALLBACK': "{{cookiecutter.project_name}}.settings.local.show_toolbar",
 }
 
+DEBUG_TOOLBAR_PATCH_SETTINGS = False
+
 
 INSTALLED_APPS += DEBUG_APPS
