@@ -27,7 +27,7 @@ ADMINS = (
 MANAGERS = ADMINS
 
 DATABASES = {
-    'default': dj_database_url.parse(get_env_var('{{ project_name|upper }}_DATABASE_URL'))
+    'default': dj_database_url.parse(get_env_var('{{cookiecutter.project_name|upper}}_DATABASE_URL'))
 }
 
 # Local time zone for this installation. Choices can be found here:
@@ -74,7 +74,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = ()
 
 # Make this unique, and don't share it with anybody.
-SECRET_KEY = get_env_var('{{ project_name|upper }}_SECRET_KEY')
+SECRET_KEY = get_env_var('{{cookiecutter.project_name|upper}}_SECRET_KEY')
 
 MIDDLEWARE_CLASSES = (
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -87,10 +87,10 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.security.SecurityMiddleware',
 )
 
-ROOT_URLCONF = '{{ project_name }}.urls'
+ROOT_URLCONF = '{{cookiecutter.project_name}}.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = '{{ project_name }}.wsgi.application'
+WSGI_APPLICATION = '{{cookiecutter.project_name|upper}}.wsgi.application'
 
 TEMPLATES = [
     {

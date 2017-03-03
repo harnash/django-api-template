@@ -2,6 +2,7 @@
     "default": {
         "Unipath": "==1.1",
         "djangorestframework": "==3.5.4",
+        "dj-database-url": "*",
         "Django": "==1.10.6",
         "django": ">=1.10"
     },
@@ -31,6 +32,6 @@
             }
         ],
         "requires": {},
-        "Pipfile-sha256": "4c10c26fef7fe6adf45dc8f2068ea0936a970fe3ffee0ea26252d45e89c0543d"
+        "Pipfile-sha256": "48bd43b8013e6684ac4697b026a0abd34dd1745afb5bcf581b17029fa74255f4"
     }
 }

@@ -32,7 +32,7 @@ def show_toolbar(request):
 
 
 DEBUG_TOOLBAR_CONFIG = {
-    'SHOW_TOOLBAR_CALLBACK': "{{ project_name }}.settings.local.show_toolbar",
+    'SHOW_TOOLBAR_CALLBACK': "{{cookiecutter.project_name}}.settings.local.show_toolbar",
 }
 
 
