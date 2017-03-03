@@ -1,0 +1,36 @@
+{
+    "default": {
+        "Unipath": "==1.1",
+        "djangorestframework": "==3.5.4",
+        "Django": "==1.10.6",
+        "django": ">=1.10"
+    },
+    "develop": {
+        "sqlparse": "==0.2.3",
+        "Sphinx": "==1.5.3",
+        "django-debug-toolbar": "==1.6",
+        "pytz": "==2016.10",
+        "docutils": "==0.13.1",
+        "snowballstemmer": "==1.2.1",
+        "Babel": "==2.3.4",
+        "alabaster": "==0.7.10",
+        "six": "==1.10.0",
+        "Django": "==1.10.6",
+        "django-extensions": "==1.7.7",
+        "Pygments": "==2.2.0",
+        "Jinja2": "==2.9.5",
+        "MarkupSafe": "==0.23",
+        "requests": "==2.13.0",
+        "imagesize": "==0.7.1"
+    },
+    "_meta": {
+        "sources": [
+            {
+                "url": "https://pypi.org/",
+                "verify_ssl": true
+            }
+        ],
+        "requires": {},
+        "Pipfile-sha256": "4c10c26fef7fe6adf45dc8f2068ea0936a970fe3ffee0ea26252d45e89c0543d"
+    }
+}

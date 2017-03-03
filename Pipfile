@@ -1,0 +1,13 @@
+[[source]]
+url = "https://pypi.org/"
+verify_ssl = true
+
+[dev-packages]
+django-extensions = "*"
+Sphinx = "*"
+django-debug-toolbar = "*"
+
+[packages]
+Unipath = "*"
+djangorestframework = ">=3.5"
+django = ">=1.10"
