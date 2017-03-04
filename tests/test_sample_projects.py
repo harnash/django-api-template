@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-import os
 from contextlib import contextmanager
 from cookiecutter.utils import rmtree
 
@@ -24,7 +23,7 @@ def test_envrc(cookies):
     extra_context = {'project_name': 'environ'}
 
     with temporary_project(cookies, extra_context=extra_context) as result:
-        envrc_file = result.project.join('environ', '.envrc')
+        envrc_file = result.project.join('.envrc')
         lines = [x.strip() for x in envrc_file.readlines(cr=False)]
-        assert 'ENVIRON_SECRET_KEY' in lines
-        assert 'ENVIRON_DATABASE_URL' in lines
+        assert 'export ENVIRON_SECRET_KEY=FOR DEV ONLY - CHANGE ME' in lines
+        assert 'export ENVIRON_DATABASE_URL=postgresql://path_to_database' in lines
