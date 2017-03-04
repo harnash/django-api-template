@@ -13,3 +13,8 @@ Unipath = "*"
 djangorestframework = ">=3.5"
 dj-database-url = "*"
 django = ">=1.10"
+{% if cookiecutter.database_type == "MySQL" %}
+mysqlclient = ">=1.3"
+{% elif cookiecutter.database_type == "PostgreSQL" %}
+psycopg2 = ">=2.7"
+{% endif %}
