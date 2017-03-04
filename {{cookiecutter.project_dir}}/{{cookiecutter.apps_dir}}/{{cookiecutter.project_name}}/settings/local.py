@@ -3,7 +3,7 @@ import re
 from .base import *
 
 
-DEBUG = TEMPLATE_DEBUG = True
+DEBUG = True
 
 # Send emails to the console
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'

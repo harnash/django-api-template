@@ -20,7 +20,7 @@
         "django-extensions": "==1.7.7",
         "Pygments": "==2.2.0",
         "Jinja2": "==2.9.5",
-        "Werkzeug": "*",
+        "Werkzeug": "==0.11.15",
         "MarkupSafe": "==0.23",
         "requests": "==2.13.0",
         "imagesize": "==0.7.1"
@@ -33,6 +33,6 @@
             }
         ],
         "requires": {},
-        "Pipfile-sha256": "8a40da91c51d4a1545f94ae936f4b4b4b31f8bf2c41c457659c6d5fb54064316"
+        "Pipfile-sha256": "c0db6c138ffd72f9a97b6d74b6ef4eda26b64b4020dde59af31b23fcdb8e5225"
     }
 }
