@@ -24,7 +24,7 @@ def test_envrc(cookies):
     extra_context = {'project_name': 'environ'}
 
     with temporary_project(cookies, extra_context=extra_context) as result:
-        envrc_file = result.project.join('.envrc')
+        envrc_file = result.project.join('environ', '.envrc')
         lines = [x.strip() for x in envrc_file.readlines(cr=False)]
         assert 'ENVIRON_SECRET_KEY' in lines
         assert 'ENVIRON_DATABASE_URL' in lines
